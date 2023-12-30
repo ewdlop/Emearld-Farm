@@ -7,5 +7,5 @@ import { draco } from "@gltf-transform/functions";
 export default defineConfig({
   assetsInclude: ['**/*.png'],
   plugins: [react(), gltf({ functions: [draco({})] })],
-  base: '/Moo-Moo-Farm/'
+  base: '/Emerald-Farm/'
 })
